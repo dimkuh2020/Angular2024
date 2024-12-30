@@ -1,6 +1,9 @@
+@use "fonts";
+
 :root {
     --dark-color: #000000;
     --light-color: #FFFFFF;
+    --primary-color: #AE7AFF;
 }
 
 body {
@@ -12,7 +15,34 @@ body {
     padding: 4px 8px;
     border-radius: 4px;
     border: 1px solid var(--light-color);
-    display: inline;
+    display: inLine;
     font-size: 12px;
+    font-family: 'JetBrains Mono';
     font-weight: 700;
+    line-height: 24px;    
+    margin-right: 4px;
+}
+
+.btn {
+    border: none;
+    background: var(--primary-color);
+    color: var(--dark-color);
+    padding: 10px 20px;
+    font-family: 'JetBrains Mono';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;    
+}
+
+.h6 {
+    font-family: 'JetBrains Mono';
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 800;
+}
+
+.subtitle {
+    font-family: 'JetBrains Mono';
+    font-size: 14px;
+    line-height: 20px;
 }
