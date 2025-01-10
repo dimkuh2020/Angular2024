@@ -1,0 +1,4 @@
+:host { // обращаемся ко всему layout
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
